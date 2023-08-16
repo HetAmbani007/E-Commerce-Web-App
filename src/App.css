@@ -1,0 +1,151 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  /* width: 100%; */
+}
+
+.my-image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+.cart-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.main-class{
+  /* background-color:royalblue; */
+  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .item{
+  margin: 10%
+} */
+
+/* parent card container */
+.card_container{
+  display: flex;
+  width:100vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.total-item {
+  position: absolute;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
+  background-color: #8B0000;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transform: translateY(-40%);
+}
+
+
+
+.search-container {
+  display: flex;
+  /* align-items: center; */
+  width: 300px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 5px;
+  justify-Content: "center",
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  border: none;
+  background: none;
+  color: #888888;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 18px;
+}
+/* sign up style */
+
+/* Add this CSS to your App.css or any other CSS file */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+
